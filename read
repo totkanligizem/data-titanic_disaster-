@@ -1,0 +1,34 @@
+# Titanic Survival Analysis
+
+Bu projede, Titanic faciasına ait yolcu verisi kullanılarak
+hayatta kalmayı etkileyen faktörler keşifsel veri analizi (EDA) ile incelenmiştir.
+
+## Dataset
+- Kaynak: Titanic dataset
+- Gözlem sayısı: 891
+- Özellikler: Passenger class, sex, age, family size, title, fare, embarked vb.
+
+## Analysis Steps
+- Veri yükleme ve genel inceleme (shape, dtypes, missing values)
+- Eksik verilerin analizi ve Cabin sütununun kaldırılması
+- Bilet sınıfına göre yolcu sayıları ve hayatta kalma oranları
+- Cinsiyet bazlı hayatta kalma analizi
+- Aile büyüklüğünün (FamilySize) hayatta kalmaya etkisi
+- Ünvanlara (Mr, Mrs, Miss, Master vb.) göre hayatta kalma oranları
+
+## Key Findings
+- Kadın yolcuların hayatta kalma oranı erkeklere kıyasla belirgin şekilde yüksektir.
+- 1. sınıf yolcuların hayatta kalma oranı daha yüksektir.
+- Orta büyüklükte ailelere sahip yolcuların hayatta kalma ihtimali daha fazladır.
+- Ünvanlar (özellikle Mrs, Miss, Master) hayatta kalma olasılığıyla güçlü ilişki göstermektedir.
+
+## Files
+- `titanic_disaster.ipynb` : Tüm analiz ve görselleştirmeler
+- `titanic.csv` : Kullanılan veri seti
+
+## Tools & Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
